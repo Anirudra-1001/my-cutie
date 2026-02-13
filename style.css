@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #ffcc00;
+}
