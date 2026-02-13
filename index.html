@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Talking Buddy</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Smart Talking Buddy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>Talking Buddy 🐱</h1>
-    <img src="https://i.imgur.com/4AiXzf8.jpeg" width="150">
-    <br><br>
-    <button onclick="startListening()">Talk to Me 🎤</button>
-  </div>
+<div class="container">
+    <h1>Smart Buddy 🐱</h1>
+
+    <img id="pet" src="https://i.imgur.com/4AiXzf8.jpeg" width="150">
+
+    <h2 id="timer">Time: 10</h2>
+    <h3 id="question"></h3>
+    <div id="options"></div>
+
+    <button onclick="startQuiz()">Start Quiz 🧠</button>
+    <button onclick="talk()">Talk to Me 🎤</button>
+
+    <p id="score"></p>
+</div>
 
 <script src="script.js"></script>
 </body>
